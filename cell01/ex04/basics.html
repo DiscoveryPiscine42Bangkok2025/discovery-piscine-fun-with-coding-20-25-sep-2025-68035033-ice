@@ -1,21 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Exercise 05: Tab</title>
+    <title>Basics</title>
+    <style>
+        body {
+            background-color: pink;
+        }
+        h1 {
+            font-size: 5em;
+            color: white;
+            text-align: center;
+        }
+        .shops {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        footer {
+            text-align: right;
+            font-style: italic;
+            font-family: monospace;
+        }
+    </style>
 </head>
 <body>
 
-    <table style="width:100%; border: 1px solid black;">
-        <tr>
-            <td style="background-color: #D3E4A2; width: 50%;">
-                First cell
-            </td>
-            <td style="background-color: #F8C8B3; width: 50%;">
-                Second cell
-            </td>
-        </tr>
-    </table>
+    <h1><span style="color: deeppink;">&lt;</span>Basics></h1>
+
+    <div class="shops">
+        <a href="https://www.amazon.com">
+            <img src="amazon.jpg" alt="Amazon online shop" style="width:200px;">
+        </a>
+        <a href="https://www.ebay.com">
+            <img src="ebay.jpg" alt="eBay online shop" style="width:200px;">
+        </a>
+    </div>
+
+    <hr>
+
+    <footer>
+        © 2021 [your_login]
+    </footer>
 
 </body>
 </html>
