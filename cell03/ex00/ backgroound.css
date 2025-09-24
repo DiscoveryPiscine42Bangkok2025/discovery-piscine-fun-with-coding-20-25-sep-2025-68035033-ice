@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+#balloon {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 50%; /* ทำให้เป็นวงกลม */
+    cursor: pointer; /* เปลี่ยนเมาส์เป็นรูปมือเมื่อชี้ */
+    transition: width 0.3s, height 0.3s, background-color 0.3s; /* ใส่ animation ให้การเปลี่ยนแปลงดู smooth ขึ้น */
+}
