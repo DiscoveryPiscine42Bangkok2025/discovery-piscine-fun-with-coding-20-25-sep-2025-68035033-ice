@@ -1,0 +1,24 @@
+/* กำหนดให้ตารางคลุมเต็มหน้าเว็บ */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Container ครอบตาราง */
+.table-container {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* สไตล์ตารางปกติ */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+}
