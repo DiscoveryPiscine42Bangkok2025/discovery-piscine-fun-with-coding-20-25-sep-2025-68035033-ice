@@ -1,0 +1,44 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+}
+
+/* Navbar container */
+.navbar {
+    background-color: #b0004b; /* SNCF Burgundy Red */
+    padding: 15px 30px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Main menu */
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+/* Menu items */
+.menu > li {
+    position: relative;
+}
+
+/* Menu links */
+.menu > li > a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 5px;
+    display: block;
+    transition: color 0.3s;
+}
+
+.menu > li > a:hover {
+    color: #ffdd57; /* Yellow highlight */
+}
