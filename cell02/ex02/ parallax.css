@@ -1,0 +1,24 @@
+/* General Body and HTML styling */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    line-height: 1.6;
+}
+
+/* Styles for Parallax sections */
+.parallax-section {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh; /* 100% of the viewport height */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Specific background images for each section */
