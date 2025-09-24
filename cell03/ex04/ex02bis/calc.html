@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calculator</title>
+</head>
+<body>
+    <h1>It's over 9000 Calculator</h1>
+    <!-- แบบฟอร์มเครื่องคิดเลข -->
+    <input type="text" id="leftOperand" placeholder="Left number">
+    <select id="operator">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+        <option value="%">%</option>
+    </select>
+    <input type="text" id="rightOperand" placeholder="Right number">
+    <button onclick="calculate()">Try me!</button>
+    
+    <script>
+        // ฟังก์ชันหลักสำหรับการคำนวณ
